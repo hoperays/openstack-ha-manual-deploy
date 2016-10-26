@@ -1,4 +1,4 @@
-# OpenStack HA Manual Deploy Memo
+# OpenStack HA Manual Deploy
 
 ----------
 
