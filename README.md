@@ -6,11 +6,11 @@
 
 ----------
 
-
+![](architecture-1.jpg "High level architecture-1")
 
 ----------
 
-
+![](architecture-2.jpg "High level architecture-2")
 
 ----------
 
