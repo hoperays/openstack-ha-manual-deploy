@@ -1044,6 +1044,7 @@ cinder extra-specs-list
 ```
 yum install -y openstack-neutron openstack-neutron-openvswitch openstack-neutron-ml2
 
+openstack-config --set /etc/neutron/neutron.conf DEFAULT host $(hostname -s)
 openstack-config --set /etc/neutron/neutron.conf DEFAULT bind_host $(hostname -s)
 openstack-config --set /etc/neutron/neutron.conf DEFAULT auth_strategy keystone
 openstack-config --set /etc/neutron/neutron.conf keystone_authtoken auth_uri http://controller-vip:5000/
