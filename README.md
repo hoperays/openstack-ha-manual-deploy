@@ -1765,7 +1765,6 @@ openstack-config --set /etc/ceilometer/ceilometer.conf service_credentials os_us
 openstack-config --set /etc/ceilometer/ceilometer.conf service_credentials os_password ceilometer1234
 openstack-config --set /etc/ceilometer/ceilometer.conf database connection mongodb://controller-1,controller-2,controller-3:27017/ceilometer?replicaSet=ceilometer
 openstack-config --set /etc/ceilometer/ceilometer.conf database max_retries -1
-
 openstack-config --set /etc/ceilometer/ceilometer.conf database metering_time_to_live 432000
 
 
