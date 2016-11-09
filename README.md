@@ -1297,7 +1297,6 @@ openstack-config --set /etc/nova/nova.conf neutron auth_uri http://controller-vi
 openstack-config --set /etc/nova/nova.conf neutron auth_plugin password
 openstack-config --set /etc/nova/nova.conf neutron region_name regionOne
 
-openstack-config --set /etc/nova/nova.conf DEFAULT allow_resize_to_same_host true
 openstack-config --set /etc/nova/nova.conf DEFAULT scheduler_host_subset_size 30
 openstack-config --set /etc/nova/api-paste.ini filter:authtoken auth_plugin password
 openstack-config --set /etc/nova/api-paste.ini filter:authtoken auth_url http://controller-vip:35357/
@@ -1668,7 +1667,6 @@ openstack-config --set /etc/nova/nova.conf neutron auth_url http://controller-vi
 openstack-config --set /etc/nova/nova.conf neutron auth_uri http://controller-vip:5000/
 openstack-config --set /etc/nova/nova.conf neutron auth_plugin password
 openstack-config --set /etc/nova/nova.conf neutron region_name regionOne
-openstack-config --set /etc/nova/nova.conf DEFAULT allow_resize_to_same_host true
 openstack-config --set /etc/nova/api-paste.ini filter:authtoken auth_plugin password
 openstack-config --set /etc/nova/api-paste.ini filter:authtoken auth_url http://controller-vip:35357/
 openstack-config --set /etc/nova/api-paste.ini filter:authtoken username nova
