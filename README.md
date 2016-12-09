@@ -982,7 +982,7 @@ scp ~/rbd_secret_uuid controller-3:~/
 
 openstack-config --set /etc/cinder/cinder.conf DEFAULT backup_ceph_conf /etc/ceph/ceph.conf
 openstack-config --set /etc/cinder/cinder.conf DEFAULT backup_ceph_user cinder-backup
-openstack-config --set /etc/cinder/cinder.conf DEFAULT backup_ceph_chunk_size 34217728
+openstack-config --set /etc/cinder/cinder.conf DEFAULT backup_ceph_chunk_size 134217728
 openstack-config --set /etc/cinder/cinder.conf DEFAULT backup_ceph_pool backups
 openstack-config --set /etc/cinder/cinder.conf DEFAULT backup_ceph_stripe_unit 0
 openstack-config --set /etc/cinder/cinder.conf DEFAULT backup_ceph_stripe_count 0
